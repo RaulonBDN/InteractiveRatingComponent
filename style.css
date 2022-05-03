@@ -21,7 +21,7 @@ p {
   max-width: 350px;
   background-color: hsl(213, 19%, 18%);
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 50px;
   padding: 2rem;
   border-radius: 20px;
 }
@@ -77,16 +77,16 @@ input[type="submit"]:hover {
   background-color: white;
 }
 
-.mostrar {
+.card .mostrar {
   display: block;
 }
 
-#rate {
+.rate {
   display: none;
 }
 
-#thankyou {
-  display: block;
+.thankyou {
+  display: none;
   text-align: center;
 }
 
