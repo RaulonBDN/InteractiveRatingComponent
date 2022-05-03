@@ -1,0 +1,108 @@
+@import url("https://fonts.google.com/specimen/Overpass");
+
+* {
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+}
+
+.card {
+  max-width: 350px;
+  background-color: hsl(213, 19%, 18%);
+  margin: 0 auto;
+  margin-top: 200px;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.circle {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: hsl(216, 12%, 24%);
+  color: hsl(217, 12%, 63%);
+}
+
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+
+input[type="radio"]:checked + div {
+  color: white;
+  background-color: hsl(216, 12%, 54%);
+}
+input[type="radio"]:hover + div {
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 1rem 0;
+  font-weight: 700;
+  border-radius: 60px;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  color: hsl(25, 97%, 53%);
+  background-color: white;
+}
+
+.mostrar {
+  display: block;
+}
+
+#rate {
+  display: none;
+}
+
+#thankyou {
+  display: block;
+  text-align: center;
+}
+
+.imagen-gracias {
+  display: block;
+  width: 162px;
+  height: 108px;
+  margin: 0 auto;
+}
+
+.meta-info {
+  margin: 2rem auto;
+  padding: 10px 20px;
+  border-radius: 50px;
+  width: 50%;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(216, 12%, 24%);
+  text-align: center;
+}
